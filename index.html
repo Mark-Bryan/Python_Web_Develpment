@@ -1,34 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
-    <title>Welcome, Business Website</title>
+    <meta name="description" content="This is a business directory" />
+    <meta name="keywords" content="business, directory, amc" />
+    <title>Welcome to My Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
-
-<body>
-    <div class="header">
-        <h1>THE AMC BUSINESS DIRECTORY</h1>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <img id="logo" src="images/ferrari_logo.jpeg" alt="Logo" />
+        <h1>Ferrari Car Deliveries</h1>
+        <nav id="horizontal">
+          <p>
+            <a href="#racing">RACING</a> | <a href="#sports">SPORTS CARS</a> |
+            <a href="#collections">COLLECTIONS</a> |<a href="#experiences"
+              >EXPERIENCES</a
+            >
+            | <a href="#about">ABOUT US</a>
+          </p>
+        </nav>
+      </header>
+      <main id="main">
+        <aside id="content">
+          <h1 class="alert">Showcase Your Business to the World</h1>
+          <p>
+            OAR. Last weekend, the American circuit, configured for the 24 Hours
+            at Daytona with a 3.56-mile (5.7 km) layout, hosted the first seven
+            free practice sessions during the ROAR Before the 24, which were
+            partially affected by heavy rain. The best lap time for a Ferrari in
+            GTD Pro was set by Costa in the DragonSpeed 296 GT3, placing eighth
+            overall with a time of 1:48.263; ninth in the combined standings was
+            teammate Molina (1:48.278). In GTD, the top Ferrari car was AF
+            Corse’s number 21, third for Italian driver Pier Guidi (1:48.131),
+            who also recorded the best overall time for the Ferraris. History.
+            Over the decades, the race has predominantly been contested over 24
+            hours, except between 1962 and 1966, and in 1972, when it featured
+            different durations. During this time, the Maranello manufacturer
+            has claimed 17 class victories and five overall wins. The most
+            recent class victory was in 2024, when official drivers Davide
+            Rigon, Daniel Serra, Alessandro Pier Guidi, and James Calado
+            triumphed in GTD Pro with Risi Competizione’s 296 GT3 after 733
+            laps. In the annals of Ferrari history and the minds of its tifosi,
+            the 1967 victory stands out, with Lorenzo Bandini and Chris Amon
+            triumphing at the wheel of the F330 P3/P4. The race ended with a
+            parade finish for Ferrari, with the second and third spots taken by
+            the 330 P4 of Mike Parkes and Ludovico Scarfiotti and the 412 P of
+            Pedro Rodriguez and Jean Guichet, respectively. The programme. On
+            Thursday, 23 January, two free practice sessions for all classes are
+            scheduled from 10.05 to 11.35 a.m. and from 6.30 to 8.00 p.m.,
+            followed by qualifying: from 2.10 to 2.25 p.m. for the GTD class and
+            from 2.35 to 2.50 p.m. for the GTD Pro class. On Friday, 24, crews
+            return on the track for a third free practice session from 11.20
+            a.m. to 12.20 p.m. The 24 Hours at Daytona will start on Saturday,
+            25 January, at 1.40 p.m. and finish at the same time the following
+            day (all times are local).
+          </p>
+        </aside>
+        <aside id="actions">
+          <div id="login-form">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="username" />
+            <input type="password" id="login-password" placeholder="password" />
+            <button id="login-btn">LOGIN</button>
+          </div>
+          <div id="register-form">
+            <h2>Register</h2>
+            <input type="text" id="register-username" placeholder="username" />
+            <input
+              type="password"
+              id="register-password"
+              placeholder="Password"
+            />
+            <input type="email" id="register-email" placeholder="Email" />
+            <input
+              type="tel"
+              id="register-phone-number"
+              placeholder="Phone Number"
+            />
+            <button id="register-btn">REGISTER</button>
+          </div>
+        </aside>
+      </main>
+      <footer id="footer"></footer>
     </div>
-
-    <div class="nav">
-        <h2>Showcase your Business to the World</h2>
-    </div>
-
-    <div class="main">
-        <h2>LOGIN</h2>
-    
-
-        <h2>REGISTER</h2>
-    </div>
-
-    
-    <div class="footer">
-    <p><small>Copyright &copy; AMC Business Showcase 2025. </small></p></div>
-    </div>
-    
-</body>
-
+  </body>
 </html>

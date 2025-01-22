@@ -1,0 +1,106 @@
+/* Global Styles (Strength: 1) */
+
+p {
+    color: blue;
+}
+
+/* Class Styles (Strength: 10) */
+
+.alert {
+    font-size: 1.5em;
+}
+
+.catchy {
+    color: purple;
+}
+
+/* ID Styles (Strength: 100) */
+
+#actions_title {
+    font-size: 3em;
+    color: aqua;
+}
+
+/* An inline style is the most specific rule you can apply. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    padding: 0.5em;
+    background-color: white;
+}
+
+#header {
+    background-color: red;
+    height: 15vh;
+    text-align: justify;
+}
+
+#main {
+    background-color: white;
+    min-height: 80vh;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+}
+
+#content {
+    flex-grow: 2;
+    background-color: white;
+    max-width: 60%;
+    padding: 20px;
+}
+
+#actions {
+    flex-grow: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#footer {
+    background-color: red;
+    min-height: 10vh;
+}
+
+#login-form {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#register-form {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+#logo{
+    float: left;
+    height: 90%;
+}
+#horizontal{
+    margin-top: 1em;
+    text-align: center;
+}
+#horizontal p{
+    font-size: 1.2em;
+}
+#horizontal a{
+    color: black;
+    margin: 0 10px;
+    font-weight: bold;
+}
+#button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: black;
+    border-radius: 5px;
+    font-size: 1em;
+}
