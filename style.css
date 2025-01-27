@@ -139,3 +139,21 @@ p {
     border-radius: 8px;
 
 }
+#sales, 
+#rentals {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+#sales h2,
+#rentals h2 {
+    color: #b22222;
+    font-size: 2.0em;
+    margin-bottom: 10px;
+}
+#sales p,
+#rentals p {
+    font-size: 1.8;
+    color: #333;
+}
