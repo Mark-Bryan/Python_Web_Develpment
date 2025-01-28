@@ -157,3 +157,36 @@ p {
     font-size: 1.8;
     color: #333;
 }
+
+@media screen and (max-width: 600px) {
+    #header h1{
+        font-size: 1.4em;
+    }
+
+    #main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #content,
+    #actions {
+        flex: 1;
+        padding: 10px;
+    }
+    #horizontal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    #horizontal a {
+        font-size: 0.9em;
+        margin: 5px;
+    }
+    #login-form,
+    #register-form {
+        padding: 10px;
+    }
+    
+}
