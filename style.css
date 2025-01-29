@@ -157,6 +157,61 @@ p {
     font-size: 1.8;
     color: #333;
 }
+#racing-cars{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.car{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+.car img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+.car h3{
+    font-size: 1.5em;
+    color: #c00;
+}
+.car p{
+    font-size: 1.3em;
+    color: #555;
+}
+#footer{
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 600px) {
+    #header{
+        flex-direction: column;
+        text-align: center;
+    }
+    #horizontal p{
+        font-size: 1em;
+    }
+    #racing-cars{
+        flex-direction: column;
+        align-items: center;
+    }
+    .car{
+        width: 90%;
+    }
+    
+}
+
+
 
 @media screen and (max-width: 600px) {
     #header h1{
