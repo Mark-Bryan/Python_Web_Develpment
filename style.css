@@ -193,24 +193,6 @@ p {
 
 }
 
-@media screen and (max-width: 600px) {
-    #header{
-        flex-direction: column;
-        text-align: center;
-    }
-    #horizontal p{
-        font-size: 1em;
-    }
-    #racing-cars{
-        flex-direction: column;
-        align-items: center;
-    }
-    .car{
-        width: 90%;
-    }
-    
-}
-
 
 
 @media screen and (max-width: 600px) {
@@ -242,6 +224,13 @@ p {
     #login-form,
     #register-form {
         padding: 10px;
+    }
+    #racing-cars{
+        flex-direction: column;
+        align-items: center;
+    }
+    .car{
+        width: 90%;
     }
     
 }
