@@ -63,7 +63,7 @@ p {
 }
 #sales p,
 #rentals p {
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #333;
 }
 #header {
@@ -105,22 +105,24 @@ p {
 #content {
   flex-grow: 2;
   background-color: white;
-  max-width: 60%;
-  padding: 20px;
+  max-width: 100%;
+  text-align: center;
+  padding: 15px;
 }
 
 #actions {
   flex-grow: 1;
   background-color: white;
-  padding: 20px;
-  max-width: 300px;
+  padding: 15px;
+  text-align: center;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 #logo {
-  float: left;
   height: 90%;
+  margin-right: 10px;
 }
 
 #racing-cars {
@@ -151,6 +153,8 @@ p {
   padding: 10px;
   background-color: red;
   color: white;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 .car {
