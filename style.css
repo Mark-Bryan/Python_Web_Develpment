@@ -118,6 +118,11 @@ p {
   flex-direction: column;
 }
 
+#logo {
+  float: left;
+  height: 90%;
+}
+
 #racing-cars {
   display: flex;
   flex-direction: column;
