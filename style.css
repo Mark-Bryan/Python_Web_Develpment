@@ -83,8 +83,16 @@ p {
   display: flex;
   flex-direction: row;
   padding: 20px;
+  justify-content: space-between;
 }
 
+#main > h2,
+#main > p {
+  width: 48%;
+}
+#main > p {
+  margin-top: 10px;
+}
 #horizontal {
   display: flex;
   flex-direction: row;
@@ -95,7 +103,7 @@ p {
 #horizontal a {
   display: block;
   padding: 10px 15px;
-  margin: 10px 0;
+  margin: 0 10px;
   text-align: center;
   font-weight: bold;
   font-size: 1.2em;
@@ -121,20 +129,15 @@ p {
 }
 
 #logo {
-  height: 90%;
-  margin-right: 10px;
+  height: 60%;
+  max-height: 100%;
 }
 
 #racing-cars {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
 }
 #login-form label,
 #register-form label {
@@ -191,12 +194,60 @@ p {
   font-size: 1em;
   border-top: 2px solid yellow;
   min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #footer p {
   margin: 10px 0;
   font-weight: bold;
   color: black;
+}
+
+#contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+#contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+#contact-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+#contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff2800;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+#contact-banner {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -213,9 +264,7 @@ p {
   }
   #content,
   #actions {
-    max-width: 100px;
-    text-align: center;
-    padding: 15px;
+    max-width: 90%;
   }
 
   #racing-cars {
